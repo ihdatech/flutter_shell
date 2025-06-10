@@ -1,6 +1,6 @@
 name: flutter_shell
 description: "A cross-platform utility to execute shell commands in Dart/Flutter apps."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ihdatech/flutter_shell
 repository: https://github.com/ihdatech/flutter_shell
 issue_tracker: https://github.com/ihdatech/flutter_shell/issues

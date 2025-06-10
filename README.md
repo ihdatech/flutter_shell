@@ -1,4 +1,4 @@
-# Shell Executor
+# Flutter Shell
 
 A cross-platform utility for executing shell commands in Dart/Flutter apps.
 

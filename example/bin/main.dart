@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter_shell/flutter_shell.dart';
 
 /// Entry point for testing the `ShellExecutor` utility via terminal.
@@ -26,9 +28,9 @@ import 'package:flutter_shell/flutter_shell.dart';
 /// from flutter_shell!
 /// ```
 Future<void> main() async {
-  print('🚀 Running ShellExecutor from terminal...\n');
+  log('🚀 Running ShellExecutor from terminal...\n');
 
   final result = await ShellExecutor.executeCommands(['echo Hello Ihda Mukhoyar', 'echo from flutter_shell!']);
 
-  print('🔧 Command output:\n$result');
+  log('🔧 Command output:\n$result');
 }

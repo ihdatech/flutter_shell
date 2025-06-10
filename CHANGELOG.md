@@ -1,5 +1,3 @@
-## 0.0.1
+## 0.0.2
 
-* Initial release: Cross-platform shell command executor for Dart and Flutter CLI apps.
-* Supports Windows (`powershell` / `cmd`), macOS/Linux (`zsh`, `bash`, `sh`).
-* Not supported on Android/iOS platforms.
+* Improved overall code quality and adherence to pub.dev analysis guidelines.
