@@ -1,8 +1,8 @@
 # Shell Executor
 
-A cross-platform utility for executing shell commands in Dart/Flutter apps.![Pub Version]
+A cross-platform utility for executing shell commands in Dart/Flutter apps.
 
-(https://img.shields.io/pub/v/flutter_shell.svg)
+![Pub Version](https://img.shields.io/pub/v/flutter_shell.svg)
 ![Build Status](https://img.shields.io/github/workflow/status/ihdatech/flutter_shell/Dart%20CI)
 ![License](https://img.shields.io/github/license/ihdatech/flutter_shell)
 
