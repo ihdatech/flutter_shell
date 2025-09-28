@@ -31,7 +31,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Execute shell commands and capture the output
-  final result = await ShellExecutor.executeCommands(['echo Hello Ihda Mukhoyar', 'echo from ShellExecutor!']);
+  final result = await ShellExecutor.executeCommands([
+    'echo Hello Ihda Mukhoyar',
+    'echo from ShellExecutor!',
+  ]);
 
   // Launch the app with the result displayed in the UI
   runApp(MyApp(output: result));
