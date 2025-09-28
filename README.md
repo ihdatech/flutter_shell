@@ -1,10 +1,10 @@
-# Flutter Shell
+# flutter_shell
 
 A cross-platform utility for executing shell commands in Dart/Flutter apps.
 
-![Pub Version](https://img.shields.io/pub/v/flutter_shell.svg)
-![Build Status](https://img.shields.io/github/workflow/status/ihdatech/flutter_shell/Dart%20CI)
-![License](https://img.shields.io/github/license/ihdatech/flutter_shell)
+![Pub Version](https://img.shields.io/pub/v/flutter_shell)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/ihdatech/flutter_shell/Dart%20CI)
+![GitHub License](https://img.shields.io/github/license/ihdatech/flutter_shell.svg)
 
 ---
 
@@ -116,6 +116,10 @@ MIT License © 2025 Your Name
 
 ---
 
-## 📬 Contact
+## 🔗 Useful Links
 
-GitHub: [https://github.com/ihdatech/flutter_shell](https://github.com/ihdatech/flutter_shell)
+* [Flutter Documentation](https://flutter.dev/docs)
+* [GitHub Repository](https://github.com/ihdatech/flutter_shell)
+* [Project Site (Optional)](https://ihdatech.github.io/flutter_shell)
+
+---

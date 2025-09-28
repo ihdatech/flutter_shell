@@ -30,7 +30,10 @@ import 'package:flutter_shell/flutter_shell.dart';
 Future<void> main() async {
   log('🚀 Running ShellExecutor from terminal...\n');
 
-  final result = await ShellExecutor.executeCommands(['echo Hello Ihda Mukhoyar', 'echo from flutter_shell!']);
+  final result = await ShellExecutor.executeCommands([
+    'echo Hello Ihda Mukhoyar',
+    'echo from flutter_shell!',
+  ]);
 
   log('🔧 Command output:\n$result');
 }

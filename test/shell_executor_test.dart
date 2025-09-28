@@ -1,3 +1,5 @@
+// File: flutter_shell/test/shell_executor_test.dart
+
 import 'dart:io';
 
 import 'package:flutter_shell/flutter_shell.dart';
@@ -6,7 +8,9 @@ import 'package:test/test.dart';
 void main() {
   group('ShellExecutor', () {
     test('returns output from a simple command', () async {
-      final output = await ShellExecutor.executeCommands([Platform.isWindows ? 'echo Hello' : 'echo "Hello"']);
+      final output = await ShellExecutor.executeCommands([
+        Platform.isWindows ? 'echo Hello' : 'echo "Hello"',
+      ]);
 
       expect(output, contains('Hello'));
     });
@@ -22,7 +26,9 @@ void main() {
     });
 
     test('returns error for invalid command', () async {
-      final output = await ShellExecutor.executeCommands(['invalid_command_xyz']);
+      final output = await ShellExecutor.executeCommands([
+        'invalid_command_xyz',
+      ]);
 
       expect(output, contains('❌'));
     });
